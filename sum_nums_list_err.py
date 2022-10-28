@@ -1,4 +1,4 @@
-numeros = input("Insira valores numericos aqui, separados por espaçoo: ")
+numeros = input("Insira valores numericos aqui, separados por espaço: ")
 
 array_de_numeros = numeros.split(" ")
 
@@ -10,4 +10,4 @@ for numero in array_de_numeros:
     else:
         soma += int(numero)
 
-print(f"A somados valores é: {soma}")
+print(f"A soma dos valores é: {soma}")
